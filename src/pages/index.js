@@ -10,6 +10,7 @@ export default function Index() {
       <Link url="./room-landing">WebRoom Landing</Link>
       <Link url="./comedian">Famous Comedian</Link>
       <Link url="./simple-traffic-light">Simple Traffic Light</Link>
+      <Link url="./tab">Tab</Link>
     </div>
   );
 }
