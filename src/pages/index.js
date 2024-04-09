@@ -11,6 +11,7 @@ export default function Index() {
       <Link url="./comedian">Famous Comedian</Link>
       <Link url="./simple-traffic-light">Simple Traffic Light</Link>
       <Link url="./tab">Tab</Link>
+      <Link url="./simple-form">Simple Form</Link>
     </div>
   );
 }
