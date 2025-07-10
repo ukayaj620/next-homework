@@ -16,7 +16,7 @@ function Badge({ children }) {
   );
 }
 
-function FeatureCard({ imgUrl, title, description }) {
+function FeatureCard({ title, description }) {
   return (
     <div
       style={{
@@ -29,11 +29,10 @@ function FeatureCard({ imgUrl, title, description }) {
         margin: "36px",
       }}
     >
-      <img style={{ width: "100%" }} src={imgUrl} />
       <h1
         style={{
           textAlign: "center",
-          margin: "32px 0 18px 0",
+          margin: "18px 0",
           fontWeight: "600",
           fontSize: "30px",
         }}
@@ -142,7 +141,6 @@ export default function RoomLanding() {
         }}
       >
         <FeatureCard
-          imgUrl="https://creable.com/landing-page/features/campaign_management.png"
           title="First Class WebRoom"
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
           orci vel sem gravida molestie eu ornare lectus. Quisque eu venenatis
@@ -150,7 +148,6 @@ export default function RoomLanding() {
           pulvinar id.`}
         />
         <FeatureCard
-          imgUrl="https://creable.com/landing-page/features/influencer_communication.svg"
           title="Communication Engagement"
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
           orci vel sem gravida molestie eu ornare lectus. Quisque eu venenatis
